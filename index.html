@@ -1,862 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Saba Goletiani — SEO & ASO Specialist</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saba Goletiani - SEO &amp; AI Search Specialist | St. Louis, MO</title>
+<meta name="description" content="Saba Goletiani is an SEO and AI Search specialist in St. Louis, MO with 6 years of experience in organic search, Answer Engine Optimization (AEO) and App Store Optimization across B2B manufacturing, dealership, ecommerce and fintech accounts.">
+<link rel="canonical" href="https://sabagoletiani.github.io/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Saba Goletiani - SEO &amp; AI Search Specialist">
+<meta property="og:description" content="Organic search and Answer Engine Optimization for B2B manufacturing, dealership, ecommerce and fintech. 6 years experience, 9 active client accounts, 54+ tracked AI citations.">
+<meta property="og:url" content="https://sabagoletiani.github.io/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Saba Goletiani",
+    "jobTitle": "SEO & AI Search Specialist",
+    "email": "mailto:sabagoletiani1@gmail.com",
+    "url": "https://sabagoletiani.github.io/",
+    "sameAs": ["https://www.linkedin.com/in/saba-goletiani"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "St. Louis",
+      "addressRegion": "MO",
+      "addressCountry": "US"
+    },
+    "knowsAbout": [
+      "Search Engine Optimization",
+      "Answer Engine Optimization",
+      "Generative Engine Optimization",
+      "Technical SEO",
+      "App Store Optimization",
+      "Schema Markup",
+      "Google Analytics 4",
+      "Google Search Console"
+    ],
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Free University of Tbilisi"
+    }
+  }
+}
+</script>
 <style>
-:root {
-  --bg:       #f7f5f0;
-  --surface:  #ffffff;
-  --surface2: #f0ede6;
-  --ink:      #1a1917;
-  --ink2:     #3d3b37;
-  --muted:    #8a8780;
-  --border:   #e0dcd4;
-  --green:    #1a6b4a;
-  --green2:   #0f4a33;
-  --green-l:  #e8f2ed;
-  --gold:     #b8860b;
-  --gold-l:   #fdf6e3;
+:root{
+  --ink:#131a17;
+  --body:#3d4a44;
+  --muted:#6b7a73;
+  --green:#1A6B4A;
+  --green-lt:#2E9C6E;
+  --line:#e2e8e5;
+  --bg:#ffffff;
+  --bg-alt:#f6f9f7;
+  --dark:#0e1c16;
+  --maxw:1080px;
 }
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color:var(--body);
+  background:var(--bg);
+  line-height:1.62;
+  font-size:16.5px;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{color:var(--ink);line-height:1.22;margin:0;font-weight:700;}
+a{color:var(--green);text-decoration:none;}
+a:hover{text-decoration:underline;}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+section{padding:66px 0;}
+.alt{background:var(--bg-alt);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.93);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:18px;}
+nav .brand{font-weight:700;color:var(--ink);letter-spacing:.2px;font-size:15.5px;}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;flex-wrap:wrap;}
+nav ul a{color:var(--body);font-size:14.5px;font-weight:500;}
+nav ul a:hover{color:var(--green);text-decoration:none;}
+@media(max-width:760px){nav ul{display:none;}}
 
-body {
-  font-family: 'DM Sans', sans-serif;
-  background: var(--bg);
-  color: var(--ink);
-  overflow-x: hidden;
-}
+/* hero */
+.hero{background:linear-gradient(160deg,#0e1c16 0%,#16382a 62%,#1a4632 100%);color:#e8f2ed;padding:76px 0 64px;}
+.hero h1{color:#fff;font-size:clamp(34px,5.4vw,52px);letter-spacing:-.6px;}
+.hero .role{color:#7fd8ab;font-weight:600;font-size:clamp(15px,2vw,18px);margin-top:10px;letter-spacing:.3px;}
+.hero p.lede{color:#c3d8ce;font-size:clamp(16px,2vw,18.5px);max-width:720px;margin:20px 0 0;}
+.hero .meta{color:#8fae9f;font-size:14.5px;margin-top:16px;}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;}
+.btn{display:inline-block;padding:11px 22px;border-radius:6px;font-weight:600;font-size:15px;}
+.btn.primary{background:#2E9C6E;color:#04130c;}
+.btn.primary:hover{background:#43b585;text-decoration:none;}
+.btn.ghost{border:1px solid #3d6b56;color:#cfe6da;}
+.btn.ghost:hover{border-color:#7fd8ab;text-decoration:none;}
 
-/* NOISE OVERLAY */
-body::after {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
-  pointer-events: none;
-  z-index: 9999;
-}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:0;}
+.stat{background:#fff;padding:22px 20px;}
+.stat .n{font-size:27px;font-weight:700;color:var(--green);line-height:1.1;letter-spacing:-.5px;}
+.stat .l{font-size:13.5px;color:var(--muted);margin-top:5px;line-height:1.4;}
 
-/* ── NAV ─────────────────────────────────────────────────────── */
-nav {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 100;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.1rem 4rem;
-  background: rgba(247,245,240,0.88);
-  backdrop-filter: blur(16px);
-  border-bottom: 1px solid var(--border);
-}
-.nav-logo {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.3rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--ink);
-  text-decoration: none;
-}
-.nav-logo span { color: var(--green); }
-.nav-links { display: flex; gap: 2.5rem; list-style: none; }
-.nav-links a {
-  font-size: 0.78rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--muted);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-.nav-links a:hover { color: var(--ink); }
-.nav-cta {
-  background: var(--green);
-  color: white !important;
-  padding: 0.45rem 1.1rem;
-  border-radius: 2px;
-}
-.nav-cta:hover { background: var(--green2); color: white !important; }
+/* headings */
+.eyebrow{text-transform:uppercase;letter-spacing:2.2px;font-size:12px;font-weight:700;color:var(--green);margin-bottom:10px;}
+h2.sec{font-size:clamp(25px,3.4vw,33px);letter-spacing:-.4px;}
+.sub{color:var(--muted);margin-top:10px;max-width:760px;}
 
-/* ── HERO ────────────────────────────────────────────────────── */
-.hero {
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  padding: 8rem 4rem 4rem;
-  gap: 4rem;
-  position: relative;
-  overflow: hidden;
-}
-.hero::before {
-  content: '';
-  position: absolute;
-  top: -200px; right: -200px;
-  width: 600px; height: 600px;
-  background: radial-gradient(circle, rgba(26,107,74,0.06) 0%, transparent 70%);
-  pointer-events: none;
-}
-.hero-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.7rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--green);
-  margin-bottom: 1.5rem;
-  font-weight: 500;
-}
-.hero-label::before {
-  content: '';
-  width: 24px; height: 1px;
-  background: var(--green);
-}
-.hero-name {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(3rem, 6vw, 5.5rem);
-  font-weight: 700;
-  line-height: 1.0;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.5rem;
-  color: var(--ink);
-}
-.hero-name em {
-  font-style: italic;
-  color: var(--green);
-}
-.hero-title {
-  font-size: 1rem;
-  color: var(--muted);
-  font-weight: 400;
-  margin-bottom: 2rem;
-  letter-spacing: 0.02em;
-}
-.hero-desc {
-  font-size: 1.05rem;
-  line-height: 1.75;
-  color: var(--ink2);
-  max-width: 480px;
-  margin-bottom: 2.5rem;
-}
-.hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
-.btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1.8rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-radius: 2px;
-  transition: all 0.2s;
-  font-family: 'DM Sans', sans-serif;
-  cursor: pointer;
-  border: none;
-}
-.btn-primary { background: var(--green); color: white; }
-.btn-primary:hover { background: var(--green2); transform: translateY(-1px); }
-.btn-outline { background: transparent; color: var(--ink); border: 1.5px solid var(--border); }
-.btn-outline:hover { border-color: var(--ink); transform: translateY(-1px); }
+/* feature block */
+.feature{background:#fff;border:1px solid var(--line);border-left:4px solid var(--green);border-radius:8px;padding:30px 32px;margin-top:26px;}
+.feature h3{font-size:19px;margin-bottom:8px;}
+.feature h3:not(:first-child){margin-top:26px;}
+.feature p{margin:0 0 12px;}
+.feature p:last-child{margin-bottom:0;}
+.feature ul{margin:6px 0 14px;padding-left:20px;}
+.feature li{margin-bottom:6px;}
+.lead-in{font-weight:600;color:var(--ink);}
+.fail{border-top:1px solid var(--line);padding-top:18px;margin-top:20px;}
+.fail h4{font-size:16px;margin-bottom:5px;}
+.fail h4 span{color:var(--green);font-variant-numeric:tabular-nums;margin-right:8px;}
+.fail p{margin:0 0 18px;}
+.fail p:last-child{margin-bottom:0;}
 
-/* HERO RIGHT — stats card */
-.hero-right {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.hero-stat-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 1.4rem 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  transition: transform 0.2s, box-shadow 0.2s;
-  animation: slideIn 0.6s ease both;
-}
-.hero-stat-card:hover {
-  transform: translateX(6px);
-  box-shadow: -4px 0 0 var(--green), 0 4px 20px rgba(0,0,0,0.06);
-}
-.hero-stat-card:nth-child(1) { animation-delay: 0.1s; }
-.hero-stat-card:nth-child(2) { animation-delay: 0.2s; }
-.hero-stat-card:nth-child(3) { animation-delay: 0.3s; }
-.hero-stat-card:nth-child(4) { animation-delay: 0.4s; }
-@keyframes slideIn {
-  from { opacity: 0; transform: translateX(20px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-.stat-icon {
-  width: 44px; height: 44px;
-  background: var(--green-l);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  flex-shrink: 0;
-}
-.stat-num {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--green);
-  line-height: 1;
-  display: block;
-}
-.stat-desc {
-  font-size: 0.8rem;
-  color: var(--muted);
-  margin-top: 0.15rem;
-  display: block;
-}
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px;margin-top:28px;}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:24px;}
+.card .tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:1.3px;text-transform:uppercase;color:var(--green);background:#eaf4ef;padding:4px 9px;border-radius:3px;margin-bottom:12px;}
+.card h3{font-size:18px;margin-bottom:8px;}
+.card p{margin:0;font-size:15.3px;}
+.card .kpis{display:flex;gap:22px;flex-wrap:wrap;margin-top:16px;padding-top:14px;border-top:1px solid var(--line);}
+.card .kpi .v{font-size:19px;font-weight:700;color:var(--ink);}
+.card .kpi .k{font-size:12.5px;color:var(--muted);}
 
-/* ── SECTIONS ────────────────────────────────────────────────── */
-section { padding: 6rem 4rem; }
-.section-inner { max-width: 1100px; margin: 0 auto; }
-.section-label {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  font-size: 0.7rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--green);
-  font-weight: 500;
-  margin-bottom: 0.8rem;
-}
-.section-label::before { content: ''; width: 24px; height: 1px; background: var(--green); }
-.section-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 700;
-  line-height: 1.1;
-  color: var(--ink);
-  margin-bottom: 3rem;
-}
-.section-title em { font-style: italic; color: var(--muted); font-weight: 400; }
+/* sector list */
+.sectors{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:26px;}
+.sector h4{font-size:15px;color:var(--green);margin-bottom:6px;}
+.sector p{margin:0;font-size:15px;}
 
-/* ── DIVIDER ────────────────────────────────────────────────── */
-.divider { width: 100%; height: 1px; background: var(--border); }
+/* timeline */
+.tl{margin-top:26px;border-left:2px solid var(--line);padding-left:24px;}
+.tl .item{position:relative;padding-bottom:22px;}
+.tl .item:last-child{padding-bottom:0;}
+.tl .item::before{content:"";position:absolute;left:-31px;top:7px;width:10px;height:10px;border-radius:50%;background:var(--green);border:2px solid #fff;}
+.tl .r{font-weight:700;color:var(--ink);font-size:16.5px;}
+.tl .c{color:var(--green);font-weight:600;}
+.tl .d{color:var(--muted);font-size:13.5px;}
+.tl p{margin:4px 0 0;font-size:15.3px;}
 
-/* ── RESULTS SECTION ─────────────────────────────────────────── */
-#results { background: var(--ink); }
-#results .section-label { color: #6dba9a; }
-#results .section-label::before { background: #6dba9a; }
-#results .section-title { color: white; }
-#results .section-title em { color: rgba(255,255,255,0.4); }
+/* skills */
+.skills{margin-top:26px;border-top:1px solid var(--line);}
+.srow{display:grid;grid-template-columns:172px 1fr;gap:20px;padding:15px 0;border-bottom:1px solid var(--line);}
+.srow .lab{font-weight:700;color:var(--green);font-size:14.5px;}
+.srow .val{font-size:15.3px;}
+@media(max-width:640px){.srow{grid-template-columns:1fr;gap:5px;}}
 
-.results-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1px;
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 4px;
-  overflow: hidden;
-  margin-bottom: 3rem;
-}
-.result-item {
-  background: var(--ink);
-  padding: 2.5rem 2rem;
-  text-align: center;
-  transition: background 0.3s;
-}
-.result-item:hover { background: #252420; }
-.result-num {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 3.2rem;
-  font-weight: 700;
-  color: #6dba9a;
-  display: block;
-  line-height: 1;
-  margin-bottom: 0.5rem;
-}
-.result-label {
-  font-size: 0.8rem;
-  color: rgba(255,255,255,0.5);
-  line-height: 1.5;
-}
+/* certs */
+.certs{margin-top:24px;}
+.cert{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid var(--line);flex-wrap:wrap;}
+.cert .nm{font-weight:600;color:var(--ink);font-size:15.3px;}
+.cert .is{color:var(--muted);font-size:14px;}
 
-/* ── CASE STUDIES ────────────────────────────────────────────── */
-.cases-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-}
-.case-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.case-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
-}
-.case-top {
-  padding: 2rem;
-  border-bottom: 1px solid var(--border);
-  position: relative;
-}
-.case-top::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 3px;
-  background: var(--card-color, var(--green));
-}
-.case-tag {
-  font-size: 0.68rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--card-color, var(--green));
-  font-weight: 600;
-  margin-bottom: 0.6rem;
-  display: block;
-}
-.case-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--ink);
-  line-height: 1.3;
-  margin-bottom: 0.5rem;
-}
-.case-sub { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
-.case-bottom { padding: 1.5rem 2rem; }
-.case-metrics { display: flex; gap: 1.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
-.case-metric-num {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: var(--card-color, var(--green));
-  display: block;
-  line-height: 1;
-}
-.case-metric-label { font-size: 0.72rem; color: var(--muted); display: block; margin-top: 0.2rem; }
-.case-tags { display: flex; gap: 0.4rem; flex-wrap: wrap; }
-.tag {
-  font-size: 0.68rem;
-  padding: 0.2rem 0.6rem;
-  background: var(--surface2);
-  color: var(--muted);
-  border-radius: 2px;
-  letter-spacing: 0.05em;
-}
-
-/* ── AI CITATIONS SPECIAL CARD ───────────────────────────────── */
-.ai-card {
-  background: linear-gradient(135deg, #0f1e18 0%, #1a3327 100%);
-  border: 1px solid rgba(109,186,154,0.2);
-  border-radius: 4px;
-  padding: 2.5rem;
-  margin-top: 1.5rem;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 2rem;
-  align-items: center;
-}
-.ai-card-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: white;
-  margin-bottom: 0.5rem;
-}
-.ai-card-desc { font-size: 0.88rem; color: rgba(255,255,255,0.55); line-height: 1.7; }
-.ai-platforms {
-  display: flex;
-  gap: 0.8rem;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-}
-.ai-platform {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.4rem 0.8rem;
-  background: rgba(109,186,154,0.12);
-  border: 1px solid rgba(109,186,154,0.2);
-  border-radius: 20px;
-  font-size: 0.75rem;
-  color: #6dba9a;
-  font-weight: 500;
-}
-.ai-big-num {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 5rem;
-  font-weight: 700;
-  color: #6dba9a;
-  line-height: 1;
-  text-align: center;
-}
-.ai-big-label { font-size: 0.75rem; color: rgba(255,255,255,0.4); text-align: center; margin-top: 0.3rem; letter-spacing: 0.1em; text-transform: uppercase; }
-
-/* ── ASO SECTION ─────────────────────────────────────────────── */
-.aso-layout {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: start;
-}
-.aso-desc { font-size: 0.95rem; line-height: 1.8; color: var(--ink2); margin-bottom: 2rem; }
-.markets-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
-.market-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 1.2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: border-color 0.2s;
-}
-.market-card:hover { border-color: var(--green); }
-.market-flag { font-size: 1.5rem; }
-.market-name { font-size: 0.88rem; font-weight: 600; color: var(--ink); margin-left: 0.5rem; }
-.market-rank {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: var(--green);
-}
-
-.aso-keywords {
-  margin-top: 1.5rem;
-  background: var(--green-l);
-  border: 1px solid rgba(26,107,74,0.15);
-  border-radius: 4px;
-  padding: 1.2rem 1.5rem;
-}
-.aso-kw-label { font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--green); font-weight: 600; margin-bottom: 0.6rem; }
-.aso-kw-list { font-size: 0.88rem; color: var(--ink2); line-height: 1.7; }
-
-/* ── SKILLS ──────────────────────────────────────────────────── */
-#skills { background: var(--surface2); }
-.skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-}
-.skill-group-title {
-  font-size: 0.7rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--muted);
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-}
-.skill-item { margin-bottom: 1.2rem; }
-.skill-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 0.4rem;
-}
-.skill-name { font-size: 0.9rem; font-weight: 500; color: var(--ink); }
-.skill-pct { font-family: 'DM Mono', monospace; font-size: 0.78rem; color: var(--muted); }
-.skill-track { height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
-.skill-fill {
-  height: 100%;
-  border-radius: 2px;
-  background: var(--green);
-  width: 0;
-  transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.tools-section { margin-top: 3rem; }
-.tools-grid { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1rem; }
-.tool-chip {
-  padding: 0.4rem 0.9rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 2px;
-  font-size: 0.78rem;
-  color: var(--ink2);
-  transition: all 0.15s;
-}
-.tool-chip:hover { border-color: var(--green); color: var(--green); background: var(--green-l); }
-
-/* ── CERTIFICATIONS ──────────────────────────────────────────── */
-.certs-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
-}
-.cert-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 2rem;
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-.cert-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 30px rgba(0,0,0,0.07);
-}
-.cert-card::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 3px;
-  background: var(--cert-color, var(--green));
-}
-.cert-badge {
-  width: 48px; height: 48px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.4rem;
-  margin-bottom: 1.2rem;
-  background: var(--cert-bg, var(--green-l));
-}
-.cert-name {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--ink);
-  margin-bottom: 0.4rem;
-  line-height: 1.3;
-}
-.cert-issuer {
-  font-size: 0.78rem;
-  color: var(--cert-color, var(--green));
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 0.8rem;
-}
-.cert-valid {
-  font-size: 0.72rem;
-  color: var(--muted);
-  font-family: 'DM Mono', monospace;
-}
-.cert-ribbon {
-  position: absolute;
-  top: 1rem;
-  right: -0.5rem;
-  background: var(--cert-color, var(--green));
-  color: white;
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 0.2rem 0.8rem 0.2rem 0.6rem;
-  border-radius: 2px 0 0 2px;
-}
-
-/* ── EXPERIENCE TIMELINE ─────────────────────────────────────── */
-.timeline { position: relative; padding-left: 2rem; }
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 0; top: 0; bottom: 0;
-  width: 1px;
-  background: var(--border);
-}
-.timeline-item {
-  position: relative;
-  padding-bottom: 2.5rem;
-  padding-left: 1.5rem;
-}
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -2.4rem;
-  top: 0.35rem;
-  width: 10px; height: 10px;
-  border-radius: 50%;
-  background: var(--green);
-  border: 2px solid var(--bg);
-  box-shadow: 0 0 0 1px var(--green);
-}
-.timeline-item.current::before { background: var(--green); box-shadow: 0 0 0 3px rgba(26,107,74,0.2); }
-.tl-period { font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--muted); margin-bottom: 0.3rem; }
-.tl-role { font-size: 1rem; font-weight: 600; color: var(--ink); margin-bottom: 0.1rem; }
-.tl-company { font-size: 0.88rem; color: var(--green); font-weight: 500; margin-bottom: 0.6rem; }
-.tl-desc { font-size: 0.85rem; color: var(--ink2); line-height: 1.7; }
-
-/* ── CONTACT ─────────────────────────────────────────────────── */
-#contact {
-  background: var(--ink);
-  text-align: center;
-}
-#contact .section-label { color: #6dba9a; justify-content: center; }
-#contact .section-label::before { background: #6dba9a; }
-#contact .section-title { color: white; margin-bottom: 1rem; }
-.contact-sub { font-size: 1rem; color: rgba(255,255,255,0.45); margin-bottom: 3rem; max-width: 500px; margin-left: auto; margin-right: auto; }
-.contact-grid {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  margin-bottom: 2.5rem;
-}
-.contact-item {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 4px;
-  padding: 1.2rem 2rem;
-  text-align: center;
-  min-width: 180px;
-  transition: background 0.2s;
-}
-.contact-item:hover { background: rgba(255,255,255,0.08); }
-.contact-item-label { font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 0.4rem; }
-.contact-item-val { font-size: 0.88rem; color: rgba(255,255,255,0.8); }
-
-footer {
-  padding: 1.5rem 4rem;
-  background: var(--ink);
-  border-top: 1px solid rgba(255,255,255,0.06);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.75rem;
-  color: rgba(255,255,255,0.25);
-}
-
-/* ── SCROLL REVEAL ───────────────────────────────────────────── */
-.reveal {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
-}
-.reveal.visible { opacity: 1; transform: translateY(0); }
-.reveal-delay-1 { transition-delay: 0.1s; }
-.reveal-delay-2 { transition-delay: 0.2s; }
-.reveal-delay-3 { transition-delay: 0.3s; }
-
-/* ── RESPONSIVE ──────────────────────────────────────────────── */
-@media (max-width: 900px) {
-  nav { padding: 1rem 1.5rem; }
-  .nav-links { display: none; }
-  .hero { grid-template-columns: 1fr; padding: 7rem 1.5rem 3rem; gap: 2.5rem; }
-  section { padding: 4rem 1.5rem; }
-  .skills-grid { grid-template-columns: 1fr; gap: 2rem; }
-  .aso-layout { grid-template-columns: 1fr; gap: 2rem; }
-  .markets-grid { grid-template-columns: 1fr 1fr; }
-  .ai-card { grid-template-columns: 1fr; }
-  footer { padding: 1.5rem; flex-direction: column; gap: 0.5rem; text-align: center; }
-}
+/* contact */
+.contact{background:var(--dark);color:#cfe3d8;text-align:center;padding:64px 0;}
+.contact h2{color:#fff;font-size:clamp(24px,3.4vw,31px);}
+.contact p{color:#9db8ab;max-width:560px;margin:14px auto 0;}
+.contact .links{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:26px;}
+footer{background:#081310;color:#5f776b;text-align:center;font-size:13.5px;padding:22px 0;}
 </style>
 </head>
 <body>
 
-<!-- NAV -->
 <nav>
-  <a href="#" class="nav-logo">Saba<span>.</span>Goletiani</a>
-  <ul class="nav-links">
-    <li><a href="#results">Results</a></li>
-    <li><a href="#cases">Case Studies</a></li>
-    <li><a href="#aso">ASO</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#certs">Certifications</a></li>
-    <li><a href="https://www.linkedin.com/in/saba-goletiani-793aa6175/" target="_blank">LinkedIn</a></li>
-    <li><a href="#contact" class="nav-cta">Hire Me</a></li>
-  </ul>
+  <div class="wrap">
+    <span class="brand">Saba Goletiani</span>
+    <ul>
+      <li><a href="#ai-search">AI Search</a></li>
+      <li><a href="#work">Case Studies</a></li>
+      <li><a href="#current">Current Work</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
 </nav>
 
-<!-- HERO -->
-<div class="hero">
-  <div class="hero-left">
-    <div class="hero-label">Available for US Roles · St. Louis, MO</div>
-    <h1 class="hero-name">Saba<br><em>Goletiani</em></h1>
-    <div class="hero-title">Senior SEO & ASO Specialist · 5+ Years Experience</div>
-    <p class="hero-desc">
-      I grow organic search visibility for fintech, banking, and consumer apps — from technical audits to content strategy to App Store rankings. Now based in St. Louis, bringing international-scale results to the US market.
+<header class="hero">
+  <div class="wrap">
+    <h1>Saba Goletiani</h1>
+    <div class="role">SEO &amp; AI Search Specialist &nbsp;·&nbsp; 6 Years Experience</div>
+    <p class="lede">
+      Search engine optimization is the work of making a business findable and credible in the places people now look for answers - classic organic results, and increasingly AI-generated ones. I do that work hands-on across B2B manufacturing, dealership, ecommerce and fintech accounts: technical audits, category and service page optimization, content briefs writers can execute from, and Answer Engine Optimization measured by citations rather than promises.
     </p>
-    <div class="hero-btns">
-      <a href="#contact" class="btn btn-primary">Get In Touch</a>
-      <a href="#cases" class="btn btn-outline">View Results</a>
+    <div class="meta">St. Louis, MO &nbsp;·&nbsp; U.S. Permanent Resident - No Sponsorship Required</div>
+    <div class="btns">
+      <a class="btn primary" href="mailto:sabagoletiani1@gmail.com">Email me</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/saba-goletiani" target="_blank" rel="noopener">LinkedIn</a>
     </div>
   </div>
-  <div class="hero-right">
-    <div class="hero-stat-card">
-      <div class="stat-icon">📈</div>
-      <div>
-        <span class="stat-num">90K+</span>
-        <span class="stat-desc">Monthly organic sessions grown from near-zero</span>
-      </div>
-    </div>
-    <div class="hero-stat-card">
-      <div class="stat-icon">🏆</div>
-      <div>
-        <span class="stat-num">#1</span>
-        <span class="stat-desc">App Store rank in USA, UK, Canada & Australia</span>
-      </div>
-    </div>
-    <div class="hero-stat-card">
-      <div class="stat-icon">🤖</div>
-      <div>
-        <span class="stat-num">54+</span>
-        <span class="stat-desc">AI citations across Google, ChatGPT & Perplexity</span>
-      </div>
-    </div>
-    <div class="hero-stat-card">
-      <div class="stat-icon">🔗</div>
-      <div>
-        <span class="stat-num">46.6K</span>
-        <span class="stat-desc">Backlinks built across 1,900+ referring domains</span>
-      </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><div class="n">6 Years</div><div class="l">In SEO, 3 of them also in ASO</div></div>
+      <div class="stat"><div class="n">9</div><div class="l">Client accounts run concurrently</div></div>
+      <div class="stat"><div class="n">54+</div><div class="l">AI citations tracked and verified</div></div>
+      <div class="stat"><div class="n">90K+</div><div class="l">Monthly organic sessions grown</div></div>
+      <div class="stat"><div class="n">62%</div><div class="l">Keywords in Google top 10</div></div>
+      <div class="stat"><div class="n">719K</div><div class="l">Impressions, blog built from zero</div></div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="divider"></div>
+<section class="alt" id="ai-search">
+  <div class="wrap">
+    <div class="eyebrow">Answer Engine Optimization</div>
+    <h2 class="sec">AEO in practice: what moved AI citations, and what didn't</h2>
+    <p class="sub">Most AEO write-ups only report the wins. Here is the whole test, including the parts that produced nothing and the mistake that cost me a month.</p>
 
-<!-- KEY RESULTS -->
-<section id="results">
-  <div class="section-inner">
-    <div class="section-label reveal">By the Numbers</div>
-    <h2 class="section-title reveal">Results that <em>speak for themselves</em></h2>
-    <div class="results-grid reveal">
-      <div class="result-item">
-        <span class="result-num">90K+</span>
-        <div class="result-label">Monthly organic<br>sessions at peak</div>
-      </div>
-      <div class="result-item">
-        <span class="result-num">$80K</span>
-        <div class="result-label">Peak monthly<br>traffic value</div>
-      </div>
-      <div class="result-item">
-        <span class="result-num">62%</span>
-        <div class="result-label">Keywords in<br>Google Top 10</div>
-      </div>
-      <div class="result-item">
-        <span class="result-num">600K+</span>
-        <div class="result-label">Monthly search<br>impressions</div>
-      </div>
-      <div class="result-item">
-        <span class="result-num">719K</span>
-        <div class="result-label">GSC impressions<br>(Nechpul, 12mo)</div>
-      </div>
-      <div class="result-item">
-        <span class="result-num">1.9K+</span>
-        <div class="result-label">Referring domains<br>acquired</div>
-      </div>
-    </div>
+    <div class="feature">
+      <h3>The change that mattered was the opening sentence</h3>
+      <p>I rewrote category page intros so the first line defines what the product is rather than selling it. On that site the template put the hero below the fold, so the definitional copy went into the product overview block instead, where it would actually get read and extracted.</p>
+      <p>Secondary changes:</p>
+      <ul>
+        <li>H2s phrased as the question a buyer actually asks, not the keyword</li>
+        <li>Comparison tables on versus queries</li>
+        <li>Naming the specific manufacturers stocked instead of a generic brand list</li>
+      </ul>
+      <p>I discussed FAQ schema and did not apply it on those pages. It is on the list, but I will not credit it for results it did not produce.</p>
 
-    <!-- AI CITATIONS CARD -->
-    <div class="ai-card reveal">
-      <div>
-        <div class="ai-card-title">Pioneering AI Search Visibility</div>
-        <p class="ai-card-desc">Among the first SEO specialists in the Uzbekistani market to systematically optimize for Generative Engine Optimization (GEO) — earning citations in Google AI Overviews, ChatGPT, Perplexity, and Microsoft Copilot. This is one of the most in-demand skills in SEO right now.</p>
-        <div class="ai-platforms">
-          <div class="ai-platform">🔍 Google AI Overview · 23 citations</div>
-          <div class="ai-platform">💬 ChatGPT · 23 citations</div>
-          <div class="ai-platform">🔎 Perplexity · 7 citations</div>
-          <div class="ai-platform">🤖 Copilot · 1 citation</div>
-        </div>
-      </div>
-      <div>
-        <div class="ai-big-num">54+</div>
-        <div class="ai-big-label">Total AI Citations</div>
+      <h3>How I measured it</h3>
+      <p>Ahrefs Brand Radar for citation tracking, Search Console's generative AI reporting for impressions, and GA4 filtered to AI referrers to see what those sessions did after they landed.</p>
+      <p>Every citation gets verified manually on a live SERP before it goes into a report. That is not belt and braces, it is necessary. I have had a rank tracker report zero AI Overview mentions on a term where the Overview was quoting my client's own sentence back at me.</p>
+
+      <h3>How long it took</h3>
+      <p>Days to a few weeks. The variable is recrawl, not anything AI-specific: the Overview updates once the page is refetched, so requesting indexing after a change shortens the wait materially. I have not measured it tightly enough to give a confident average, and I would be suspicious of anyone who had.</p>
+
+      <h3>What didn't work</h3>
+      <div class="fail">
+        <h4><span>01</span>Commercial intro copy produced nothing</h4>
+        <p>Pages with a well-written benefit-led opening performed no better than pages with no opening at all. Only definitional copy moved anything. That took me a while to accept, because the commercial copy read better.</p>
+
+        <h4><span>02</span>Attribution is harder than the write-ups suggest</h4>
+        <p>The tooling is unreliable enough that I treat my own reporting as a hypothesis and verify by hand. On low-volume terms I often cannot separate a citation appearing from normal AI Overview churn, and I say so in the report rather than claiming the win.</p>
+
+        <h4><span>03</span>On two accounts the content work could not have worked</h4>
+        <p>The AI crawlers were blocked before they ever reached the page. One account had a Cloudflare managed rule disallowing every AI agent. Another had a ten second crawl delay applied across forty of them. I had already spent effort on content. Access is now the first thing I check, before a single word gets rewritten.</p>
       </div>
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
+<section id="work">
+  <div class="wrap">
+    <div class="eyebrow">Case Studies</div>
+    <h2 class="sec">Selected results</h2>
+    <div class="grid">
 
-<!-- CASE STUDIES -->
-<section id="cases" style="background: var(--bg);">
-  <div class="section-inner">
-    <div class="section-label reveal">Case Studies</div>
-    <h2 class="section-title reveal">Real projects,<br><em>real impact</em></h2>
-    <div class="cases-grid">
-
-      <div class="case-card reveal" style="--card-color: #1a6b4a">
-        <div class="case-top">
-          <span class="case-tag">Banking & Fintech · Uzbekistan</span>
-          <div class="case-title">TBC UZ / Payme — Fintech SEO Dominance</div>
-          <div class="case-sub">Led full SEO strategy for major Uzbekistani fintech brands, establishing market-leading search presence against all national banking competitors.</div>
-        </div>
-        <div class="case-bottom">
-          <div class="case-metrics">
-            <div><span class="case-metric-num">90K+</span><span class="case-metric-label">Monthly sessions</span></div>
-            <div><span class="case-metric-num">62%</span><span class="case-metric-label">Keywords top 10</span></div>
-            <div><span class="case-metric-num">$80K</span><span class="case-metric-label">Traffic value/mo</span></div>
-          </div>
-          <div class="case-tags">
-            <span class="tag">Technical SEO</span>
-            <span class="tag">Content Strategy</span>
-            <span class="tag">Link Building</span>
-            <span class="tag">GEO</span>
-          </div>
+      <div class="card">
+        <span class="tag">Banking &amp; Fintech</span>
+        <h3>TBC UZ / Payme</h3>
+        <p>Owned organic strategy for a market-leading bank and payments brand in Uzbekistan, from technical audits through to client-facing reporting. Built the AI search visibility program that put the brand into generative results ahead of every national competitor.</p>
+        <div class="kpis">
+          <div class="kpi"><div class="v">90K+</div><div class="k">Monthly sessions</div></div>
+          <div class="kpi"><div class="v">$80K/mo</div><div class="k">Peak traffic value</div></div>
+          <div class="kpi"><div class="v">62%</div><div class="k">Keywords in top 10</div></div>
         </div>
       </div>
 
-      <div class="case-card reveal reveal-delay-1" style="--card-color: #2e86ab">
-        <div class="case-top">
-          <span class="case-tag">Media & Content · Uzbekistan</span>
-          <div class="case-title">Nechpul Blog — Zero to Authority in 6 Months</div>
-          <div class="case-sub">Built a brand new blog from absolute zero to a high-authority content property with significant AI search visibility, all within 6 months.</div>
-        </div>
-        <div class="case-bottom">
-          <div class="case-metrics">
-            <div><span class="case-metric-num">21.4K</span><span class="case-metric-label">GSC clicks</span></div>
-            <div><span class="case-metric-num">719K</span><span class="case-metric-label">Impressions</span></div>
-            <div><span class="case-metric-num">43</span><span class="case-metric-label">AI citations</span></div>
-          </div>
-          <div class="case-tags">
-            <span class="tag">Content SEO</span>
-            <span class="tag">AI Optimization</span>
-            <span class="tag">GEO</span>
-            <span class="tag">6 Months</span>
-          </div>
+      <div class="card">
+        <span class="tag">Media &amp; Content</span>
+        <h3>Nechpul Blog</h3>
+        <p>Built a content property from absolute zero to a cited authority in twelve months. Topic clusters mapped to real search intent, briefs written for the writers to execute from, and entity coverage deep enough that answer engines started quoting it.</p>
+        <div class="kpis">
+          <div class="kpi"><div class="v">719K</div><div class="k">Impressions</div></div>
+          <div class="kpi"><div class="v">21.4K</div><div class="k">Clicks</div></div>
+          <div class="kpi"><div class="v">43</div><div class="k">AI citations</div></div>
         </div>
       </div>
 
-      <div class="case-card reveal reveal-delay-2" style="--card-color: #c0522a">
-        <div class="case-top">
-          <span class="case-tag">Tourism · Multi-Market</span>
-          <div class="case-title">Tourist Visa Sites — #1 Rankings Across Locations</div>
-          <div class="case-sub">Achieved top position rankings for competitive tourist visa keywords across multiple geographic locations through local SEO and intent-based content strategy.</div>
-        </div>
-        <div class="case-bottom">
-          <div class="case-metrics">
-            <div><span class="case-metric-num">#1</span><span class="case-metric-label">Rankings achieved</span></div>
-            <div><span class="case-metric-num">Multi</span><span class="case-metric-label">Location targets</span></div>
-          </div>
-          <div class="case-tags">
-            <span class="tag">Local SEO</span>
-            <span class="tag">Content</span>
-            <span class="tag">Geo-targeting</span>
-          </div>
+      <div class="card">
+        <span class="tag">Technical SEO</span>
+        <h3>CMS &amp; URL taxonomy migration</h3>
+        <p>Moved a high-traffic site off a legacy CMS onto Strapi without losing organic traffic. Redirect mapping, crawl management, and pre and post-launch technical audits, with link equity preserved through the taxonomy change.</p>
+        <div class="kpis">
+          <div class="kpi"><div class="v">Zero</div><div class="k">Organic traffic lost</div></div>
+          <div class="kpi"><div class="v">46.6K</div><div class="k">Backlinks retained</div></div>
         </div>
       </div>
 
-      <div class="case-card reveal reveal-delay-3" style="--card-color: #b8860b">
-        <div class="case-top">
-          <span class="case-tag">Banking · Uzbekistan</span>
-          <div class="case-title">National Bank — 50% Organic Traffic Growth</div>
-          <div class="case-sub">Delivered sustained 50%+ organic traffic growth for a major Uzbekistani bank through technical SEO overhaul, content architecture, and 12+ months of strategic execution.</div>
-        </div>
-        <div class="case-bottom">
-          <div class="case-metrics">
-            <div><span class="case-metric-num">+50%</span><span class="case-metric-label">Traffic growth</span></div>
-            <div><span class="case-metric-num">12mo</span><span class="case-metric-label">Timeline</span></div>
-          </div>
-          <div class="case-tags">
-            <span class="tag">Technical SEO</span>
-            <span class="tag">On-Page</span>
-            <span class="tag">Migration</span>
-          </div>
+      <div class="card">
+        <span class="tag">App Store Optimization</span>
+        <h3>Children's education apps</h3>
+        <p>Three years of ASO across children's educational games. Keyword localization and metadata optimization in six languages, plus A/B testing on icons, screenshots and feature graphics that measurably lifted store conversion.</p>
+        <div class="kpis">
+          <div class="kpi"><div class="v">#1</div><div class="k">US, UK, CA, AU</div></div>
+          <div class="kpi"><div class="v">6</div><div class="k">Languages localized</div></div>
         </div>
       </div>
 
@@ -864,302 +305,120 @@ footer {
   </div>
 </section>
 
-<div class="divider"></div>
-
-<!-- ASO -->
-<section id="aso" style="background: var(--surface2);">
-  <div class="section-inner">
-    <div class="section-label reveal">App Store Optimization</div>
-    <h2 class="section-title reveal">Ranking apps at<br><em>the very top</em></h2>
-    <div class="aso-layout">
-      <div class="reveal">
-        <p class="aso-desc">3+ years of ASO experience across children's educational games and fintech apps. Achieved the most competitive benchmark in ASO — simultaneous #1 rankings across all major English-speaking markets for high-volume keywords in the Kids & Family category.</p>
-        <p class="aso-desc">Specializing in metadata optimization, A/B testing for creative assets, keyword localization across 6 languages, and conversion rate optimization on both iOS App Store and Google Play.</p>
-        <div class="aso-keywords">
-          <div class="aso-kw-label">Primary Keywords Ranked #1</div>
-          <div class="aso-kw-list">"kids games" · "baby games" · "toddler games" · "educational games for kids" · and related high-volume terms</div>
-        </div>
+<section class="alt" id="current">
+  <div class="wrap">
+    <div class="eyebrow">Current Work</div>
+    <h2 class="sec">Nine client accounts, run in parallel</h2>
+    <p class="sub">Agency-side SEO strategy across industrial manufacturing, dealership and ecommerce accounts. Every one of them sells something specific to a buyer who knows what they are looking for, which is the kind of search work I like most.</p>
+    <div class="sectors">
+      <div class="sector">
+        <h4>Industrial Manufacturing</h4>
+        <p>Web guiding equipment including rotary dies, precision rolls, slitting and winding. Electrical products distribution. Industrial gaskets.</p>
       </div>
-      <div class="reveal reveal-delay-1">
-        <div style="font-size:0.7rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:1rem;">Markets Achieved #1</div>
-        <div class="markets-grid">
-          <div class="market-card">
-            <div style="display:flex;align-items:center;gap:0.5rem">
-              <span class="market-flag">🇺🇸</span>
-              <span class="market-name">USA</span>
-            </div>
-            <span class="market-rank">#1</span>
-          </div>
-          <div class="market-card">
-            <div style="display:flex;align-items:center;gap:0.5rem">
-              <span class="market-flag">🇬🇧</span>
-              <span class="market-name">UK</span>
-            </div>
-            <span class="market-rank">#1</span>
-          </div>
-          <div class="market-card">
-            <div style="display:flex;align-items:center;gap:0.5rem">
-              <span class="market-flag">🇨🇦</span>
-              <span class="market-name">Canada</span>
-            </div>
-            <span class="market-rank">#1</span>
-          </div>
-          <div class="market-card">
-            <div style="display:flex;align-items:center;gap:0.5rem">
-              <span class="market-flag">🇦🇺</span>
-              <span class="market-name">Australia</span>
-            </div>
-            <span class="market-rank">#1</span>
-          </div>
-        </div>
-        <div style="margin-top:1rem;display:grid;grid-template-columns:1fr 1fr;gap:0.8rem;">
-          <div style="background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:1rem;text-align:center;">
-            <div style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:700;color:var(--green)">3+</div>
-            <div style="font-size:0.72rem;color:var(--muted)">Years ASO</div>
-          </div>
-          <div style="background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:1rem;text-align:center;">
-            <div style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:700;color:#2e86ab">6</div>
-            <div style="font-size:0.72rem;color:var(--muted)">Languages localized</div>
-          </div>
-        </div>
+      <div class="sector">
+        <h4>Powersports &amp; Dealership</h4>
+        <p>An authorized Harley-Davidson dealership and a motorsports and powersports dealer under the same ownership.</p>
+      </div>
+      <div class="sector">
+        <h4>Ecommerce &amp; Custom Print</h4>
+        <p>Custom coffee sleeves, cups and coasters. Shoe covers, dispensers and removers. Christmas and outdoor decoration retail.</p>
+      </div>
+      <div class="sector">
+        <h4>Specialty Vehicles</h4>
+        <p>Accessibility and mobility vehicle sales, where search intent is high-consideration and conversion paths are long.</p>
       </div>
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
-
-<!-- SKILLS -->
-<section id="skills">
-  <div class="section-inner">
-    <div class="section-label reveal">Expertise</div>
-    <h2 class="section-title reveal">Skills &<br><em>tools</em></h2>
-    <div class="skills-grid reveal">
-      <div>
-        <div class="skill-group-title">Core Competencies</div>
-        <div class="skill-item">
-          <div class="skill-info"><span class="skill-name">Search Engine Optimization</span><span class="skill-pct">95%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="95" style="background:var(--green)"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-info"><span class="skill-name">App Store Optimization</span><span class="skill-pct">88%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="88" style="background:#2e86ab"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-info"><span class="skill-name">Technical SEO & Auditing</span><span class="skill-pct">85%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="85" style="background:#c0522a"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-info"><span class="skill-name">GEO / AI Search Optimization</span><span class="skill-pct">82%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="82" style="background:var(--gold)"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-info"><span class="skill-name">Content Strategy</span><span class="skill-pct">85%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="85" style="background:var(--green)"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-info"><span class="skill-name">HTML / CSS / JavaScript</span><span class="skill-pct">65%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="65" style="background:#2e86ab"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-info"><span class="skill-name">Data Analysis & Reporting</span><span class="skill-pct">80%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="80" style="background:var(--green)"></div></div>
-        </div>
+<section id="experience">
+  <div class="wrap">
+    <div class="eyebrow">Experience</div>
+    <h2 class="sec">Career</h2>
+    <div class="tl">
+      <div class="item">
+        <div class="r">SEO Strategist <span class="c">· Timmermann Group</span></div>
+        <div class="d">St. Louis, MO · 2026 - Present</div>
+        <p>Lead SEO across nine concurrent client accounts at a US digital agency. Strategy, technical execution, content direction and stakeholder communication.</p>
       </div>
-      <div>
-        <div class="tools-section">
-          <div class="skill-group-title">SEO Tools</div>
-          <div class="tools-grid">
-            <span class="tool-chip">Ahrefs</span>
-            <span class="tool-chip">SEMrush</span>
-            <span class="tool-chip">Screaming Frog</span>
-            <span class="tool-chip">Google Search Console</span>
-            <span class="tool-chip">Google Analytics 4</span>
-            <span class="tool-chip">Google Tag Manager</span>
-            <span class="tool-chip">Looker Studio</span>
-            <span class="tool-chip">BigQuery</span>
-            <span class="tool-chip">PageSpeed Insights</span>
-            <span class="tool-chip">Bing Webmaster Tools</span>
-            <span class="tool-chip">Topvisor</span>
-          </div>
-        </div>
-        <div class="tools-section" style="margin-top:1.8rem">
-          <div class="skill-group-title">ASO Tools</div>
-          <div class="tools-grid">
-            <span class="tool-chip">AppFollow</span>
-            <span class="tool-chip">AppTweak</span>
-            <span class="tool-chip">Sensor Tower</span>
-            <span class="tool-chip">data.ai</span>
-            <span class="tool-chip">App Store Connect</span>
-            <span class="tool-chip">Google Play Console</span>
-          </div>
-        </div>
-        <div class="tools-section" style="margin-top:1.8rem">
-          <div class="skill-group-title">Technical & CMS</div>
-          <div class="tools-grid">
-            <span class="tool-chip">WordPress</span>
-            <span class="tool-chip">Strapi CMS</span>
-            <span class="tool-chip">HTML / CSS</span>
-            <span class="tool-chip">JavaScript</span>
-            <span class="tool-chip">Schema Markup</span>
-          </div>
-        </div>
+      <div class="item">
+        <div class="r">SEO Manager <span class="c">· Space International</span></div>
+        <div class="d">Tbilisi, Georgia · 2023 - 2026</div>
+        <p>Full-cycle SEO for TBC UZ, Payme and Billz. Technical audits, content strategy, AI search visibility, and client-facing performance reporting.</p>
+      </div>
+      <div class="item">
+        <div class="r">ASO Specialist <span class="c">· Bebi Games LLC</span></div>
+        <div class="d">Tbilisi, Georgia · 2025 - 2026</div>
+        <p>App Store Optimization for a portfolio of children's educational games across iOS and Google Play.</p>
+      </div>
+      <div class="item">
+        <div class="r">SEO Specialist, Contract <span class="c">· Nechpul</span></div>
+        <div class="d">Tbilisi, Georgia · 2025 - 2026</div>
+        <p>Built a content property from zero to a cited authority inside twelve months.</p>
+      </div>
+      <div class="item">
+        <div class="r">Invited SEO Lecturer <span class="c">· Academica University</span></div>
+        <div class="d">Tbilisi, Georgia · 2024 - 2025</div>
+        <p>Designed and delivered a full SEO curriculum, building repeatable training frameworks for non-technical audiences.</p>
+      </div>
+      <div class="item">
+        <div class="r">Digital Marketing Manager <span class="c">· Clean World</span></div>
+        <div class="d">Tbilisi, Georgia · 2023</div>
+        <p>Multichannel strategy across paid and organic search, plus lead webmaster duties on the company WordPress ecosystem.</p>
+      </div>
+      <div class="item">
+        <div class="r">SEO Specialist <span class="c">· Nordix Tech</span></div>
+        <div class="d">Tbilisi, Georgia · 2022 - 2023</div>
+        <p>On-page optimization, internal linking strategy, keyword mapping, and performance dashboards in GSC and GA4.</p>
+      </div>
+      <div class="item">
+        <div class="r">Affiliate Manager / Junior SEO <span class="c">· Social Boost</span></div>
+        <div class="d">Tbilisi, Georgia · 2020 - 2022</div>
+        <p>SEO across 50+ websites targeting 12+ international markets, achieving #1 rankings in competitive verticals.</p>
       </div>
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
+<section class="alt" id="skills">
+  <div class="wrap">
+    <div class="eyebrow">Capabilities</div>
+    <h2 class="sec">Skills and tools</h2>
+    <div class="skills">
+      <div class="srow"><div class="lab">SEO &amp; AEO</div><div class="val">Technical SEO · On-page optimization · Answer Engine Optimization · Generative Engine Optimization · AI visibility and citation tracking · Content briefs · Search intent mapping · Keyword research · Entity optimization · Internal linking · Schema markup · E-E-A-T · CRO · Multi-location SEO</div></div>
+      <div class="srow"><div class="lab">Technical</div><div class="val">Crawl and indexation analysis · Redirect mapping and site migrations · AI crawler access and robots-level auditing · JavaScript rendering · Site architecture · Structured data · Core Web Vitals · HTML · CSS</div></div>
+      <div class="srow"><div class="lab">AI Workflows</div><div class="val">Claude · ChatGPT · Gemini · Perplexity · Prompt and template development · AI-assisted page scoring and brief development · n8n automation · Process documentation</div></div>
+      <div class="srow"><div class="lab">Analytics</div><div class="val">Google Analytics 4 · Google Search Console · Looker Studio · Semrush · Ahrefs and Brand Radar · Screaming Frog · BigQuery · Google Tag Manager · Topvisor · PageSpeed Insights</div></div>
+      <div class="srow"><div class="lab">Platforms</div><div class="val">WordPress · Shopify · BigCommerce · Wix · Strapi · DealerSpike</div></div>
+      <div class="srow"><div class="lab">ASO</div><div class="val">Metadata optimization · Keyword localization · A/B testing · App Store Connect · Google Play Console · AppFollow · AppTweak · Sensor Tower</div></div>
+      <div class="srow"><div class="lab">Languages</div><div class="val">English (professional) · Georgian (native) · Russian (conversational)</div></div>
+    </div>
 
-<!-- CERTIFICATIONS -->
-<section id="certs" style="background:var(--surface2)">
-  <div class="section-inner">
-    <div class="section-label reveal">Credentials</div>
-    <h2 class="section-title reveal">Certifications</h2>
-    <div class="certs-grid">
-
-      <div class="cert-card reveal" style="--cert-color:#1a6b4a;--cert-bg:#e8f2ed">
-        <div class="cert-ribbon">Active</div>
-        <div class="cert-badge">📊</div>
-        <div class="cert-name">Technical SEO & AI Search Essentials</div>
-        <div class="cert-issuer">Semrush Academy</div>
-        <div class="cert-valid">Issued Apr 2026 · Expires Apr 2027</div>
-      </div>
-
-      <div class="cert-card reveal reveal-delay-1" style="--cert-color:#4285f4;--cert-bg:#e8f0fe">
-        <div class="cert-ribbon">Active</div>
-        <div class="cert-badge">📈</div>
-        <div class="cert-name">Google Analytics Certification (GA4)</div>
-        <div class="cert-issuer">Google</div>
-        <div class="cert-valid">Issued Mar 2026 · Expires Mar 2027</div>
-      </div>
-
-      <div class="cert-card reveal reveal-delay-2" style="--cert-color:#ff7a59;--cert-bg:#fff1ee">
-        <div class="cert-ribbon">Active</div>
-        <div class="cert-badge">🎓</div>
-        <div class="cert-name">SEO Certified</div>
-        <div class="cert-issuer">HubSpot Academy</div>
-        <div class="cert-valid">Issued Mar 2026 · Expires Apr 2027</div>
-      </div>
-
-      <div class="cert-card reveal reveal-delay-3" style="--cert-color:#2e86ab;--cert-bg:#e8f4f9">
-        <div class="cert-ribbon">Active</div>
-        <div class="cert-badge">🏷️</div>
-        <div class="cert-name">Google Tag Manager Fundamentals</div>
-        <div class="cert-issuer">Analytics Mania</div>
-        <div class="cert-valid">Issued Mar 2026</div>
-      </div>
-
+    <h2 class="sec" style="margin-top:46px;font-size:22px;">Certifications</h2>
+    <div class="certs">
+      <div class="cert"><span class="nm">Technical SEO &amp; AI Search Essentials</span><span class="is">Semrush Academy · valid through Apr 2027</span></div>
+      <div class="cert"><span class="nm">Google Analytics Certification (GA4)</span><span class="is">Google · valid through Mar 2027</span></div>
+      <div class="cert"><span class="nm">SEO Certified</span><span class="is">HubSpot Academy · valid through Apr 2027</span></div>
+      <div class="cert"><span class="nm">Google Tag Manager Fundamentals</span><span class="is">Analytics Mania · 2026</span></div>
+      <div class="cert"><span class="nm">Bachelor's Degree, Social Sciences</span><span class="is">Free University of Tbilisi · 2015 - 2019</span></div>
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
-
-<!-- EXPERIENCE -->
-<section id="experience" style="background:var(--bg)">
-  <div class="section-inner">
-    <div class="section-label reveal">Background</div>
-    <h2 class="section-title reveal">Career<br><em>timeline</em></h2>
-    <div class="timeline reveal">
-      <div class="timeline-item current">
-        <div class="tl-period">2025 — 2026</div>
-        <div class="tl-role">ASO Specialist</div>
-        <div class="tl-company">Bebi Games LLC · Tbilisi, Georgia</div>
-        <div class="tl-desc">Led ASO for children's educational games portfolio. Achieved simultaneous #1 rankings in USA, UK, Canada & Australia for "kids games" and related keywords. Executed 6-language localization strategy.</div>
-      </div>
-      <div class="timeline-item current">
-        <div class="tl-period">2023 — 2026</div>
-        <div class="tl-role">SEO Manager</div>
-        <div class="tl-company">Space International · Tbilisi, Georgia</div>
-        <div class="tl-desc">Led SEO for fintech and banking products (TBC UZ, Payme, Billz). Grew organic traffic to 90K+ monthly sessions, built 46.6K backlinks, pioneered AI search visibility with 54+ citations.</div>
-      </div>
-      <div class="timeline-item">
-        <div class="tl-period">2025 — 2026</div>
-        <div class="tl-role">SEO Specialist (Contract)</div>
-        <div class="tl-company">Nechpul · Uzbekistan</div>
-        <div class="tl-desc">Built blog from zero to 21.4K clicks and 719K impressions in 12 months. Generated 43 AI citations across major LLMs.</div>
-      </div>
-      <div class="timeline-item">
-        <div class="tl-period">2024 — 2025</div>
-        <div class="tl-role">Invited SEO Lecturer</div>
-        <div class="tl-company">Academica University · Tbilisi, Georgia</div>
-        <div class="tl-desc">Designed and delivered comprehensive SEO curriculum covering technical, on-page, and off-page SEO for digital marketing students.</div>
-      </div>
-      <div class="timeline-item">
-        <div class="tl-period">2023</div>
-        <div class="tl-role">Digital Marketing Manager</div>
-        <div class="tl-company">Clean World · Tbilisi, Georgia</div>
-        <div class="tl-desc">Managed multichannel digital marketing across PPC and organic. Served as WordPress webmaster maintaining 100% uptime.</div>
-      </div>
-      <div class="timeline-item">
-        <div class="tl-period">2022 — 2023</div>
-        <div class="tl-role">SEO Specialist</div>
-        <div class="tl-company">Nordix Tech · Tbilisi, Georgia</div>
-        <div class="tl-desc">Full-cycle SEO execution including on-page optimization, keyword strategy, and GA4/GSC performance reporting.</div>
-      </div>
-      <div class="timeline-item">
-        <div class="tl-period">2020 — 2022</div>
-        <div class="tl-role">Affiliate Manager / Junior SEO</div>
-        <div class="tl-company">Social Boost · Tbilisi, Georgia</div>
-        <div class="tl-desc">Managed affiliate partnerships and supported senior SEO team with keyword research and content planning.</div>
-      </div>
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Get in touch</h2>
+    <p>Based in St. Louis, MO and comfortable working across US Central and Eastern hours. Happy to talk through any of the work above, including the parts that did not go to plan.</p>
+    <div class="links">
+      <a class="btn primary" href="mailto:sabagoletiani1@gmail.com">sabagoletiani1@gmail.com</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/saba-goletiani" target="_blank" rel="noopener">linkedin.com/in/saba-goletiani</a>
     </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <div class="section-inner">
-    <div class="section-label">Let's Work Together</div>
-    <h2 class="section-title">Open to SEO & ASO<br><em>roles in the US</em></h2>
-    <p class="contact-sub">U.S. Permanent Resident — no visa sponsorship required. Based in St. Louis, MO. Open to hybrid and remote roles.</p>
-    <div class="contact-grid">
-      <div class="contact-item">
-        <div class="contact-item-label">Email</div>
-        <div class="contact-item-val">sabagoletiani1@gmail.com</div>
-      </div>
-      <div class="contact-item" style="cursor:pointer" onclick="window.open('https://www.linkedin.com/in/saba-goletiani-793aa6175/','_blank')">
-        <div class="contact-item-label">LinkedIn</div>
-        <div class="contact-item-val">saba-goletiani</div>
-      </div>
-      <div class="contact-item">
-        <div class="contact-item-label">Location</div>
-        <div class="contact-item-val">St. Louis, MO · USA</div>
-      </div>
-    </div>
-    <a href="mailto:sabagoletiani1@gmail.com" class="btn btn-primary" style="background:#6dba9a;color:#0f1e18;margin:0 auto;display:inline-flex">Send Me a Message →</a>
   </div>
 </section>
 
 <footer>
-  <span>© 2026 Saba Goletiani</span>
-  <span>Senior SEO & ASO Specialist · St. Louis, MO</span>
+  <div class="wrap">Saba Goletiani · SEO &amp; AI Search Specialist · St. Louis, MO</div>
 </footer>
 
-<script>
-// Scroll reveal
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      // Animate skill bars
-      entry.target.querySelectorAll('.skill-fill[data-width]').forEach(bar => {
-        setTimeout(() => bar.style.width = bar.dataset.width + '%', 200);
-      });
-      observer.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.12 });
-
-document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-// Animate hero skill bars on load
-setTimeout(() => {
-  document.querySelectorAll('.skill-fill[data-width]').forEach(bar => {
-    bar.style.width = bar.dataset.width + '%';
-  });
-}, 600);
-</script>
 </body>
 </html>
